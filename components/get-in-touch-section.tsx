@@ -56,7 +56,7 @@ export function GetInTouchSection() {
                                 Let's Connect
                             </h3>
                             <div className="space-y-6">
-                                <div className="flex items-center space-x-4">
+                                <div className="cursor-target flex items-center space-x-4">
                                     <div className="flex-shrink-0 w-12 h-12 bg-blue-100 dark:bg-blue-900 rounded-lg flex items-center justify-center">
                                         <Mail className="h-6 w-6 text-blue-600 dark:text-blue-400" />
                                     </div>
@@ -66,7 +66,7 @@ export function GetInTouchSection() {
                                     </div>
                                 </div>
 
-                                <div className="flex items-center space-x-4">
+                                <div className="cursor-target flex items-center space-x-4">
                                     <div className="flex-shrink-0 w-12 h-12 bg-green-100 dark:bg-green-900 rounded-lg flex items-center justify-center">
                                         <Phone className="h-6 w-6 text-green-600 dark:text-green-400" />
                                     </div>
@@ -76,7 +76,7 @@ export function GetInTouchSection() {
                                     </div>
                                 </div>
 
-                                <div className="flex items-center space-x-4">
+                                <div className="cursor-target flex items-center space-x-4">
                                     <div className="flex-shrink-0 w-12 h-12 bg-purple-100 dark:bg-purple-900 rounded-lg flex items-center justify-center">
                                         <MapPin className="h-6 w-6 text-purple-600 dark:text-purple-400" />
                                     </div>

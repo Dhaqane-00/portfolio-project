@@ -69,7 +69,7 @@ function PortfolioCard({
     <div className="max-w-xs w-full group/card">
       <div
         className={cn(
-          "cursor-pointer overflow-hidden relative card h-96 rounded-md shadow-xl max-w-sm mx-auto backgroundImage flex flex-col justify-between p-4 transition-transform duration-300 hover:scale-105",
+          "cursor-target cursor-pointer overflow-hidden relative card h-96 rounded-md shadow-xl max-w-sm mx-auto backgroundImage flex flex-col justify-between p-4 transition-transform duration-300 hover:scale-105",
           "bg-gradient-to-br from-gray-900 to-gray-700 dark:from-gray-800 dark:to-gray-900"
         )}
         style={{

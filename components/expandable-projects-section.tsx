@@ -284,7 +284,7 @@ export function ExpandableProjectsSection() {
                     <motion.a
                       href={active.githubLink}
                       target="_blank"
-                      className="flex items-center gap-2 px-4 py-2 bg-black dark:bg-white text-white dark:text-black rounded-full text-sm font-medium hover:opacity-80 transition-opacity"
+                      className="cursor-target flex items-center gap-2 px-4 py-2 bg-black dark:bg-white text-white dark:text-black rounded-full text-sm font-medium hover:opacity-80 transition-opacity"
                     >
                       <Github className="h-4 w-4" />
                       Code
@@ -292,7 +292,7 @@ export function ExpandableProjectsSection() {
                     <motion.a
                       href={active.liveLink}
                       target="_blank"
-                      className="flex items-center gap-2 px-4 py-2 border border-gray-300 dark:border-gray-600 rounded-full text-sm font-medium hover:bg-gray-50 dark:hover:bg-gray-800 transition-colors"
+                      className="cursor-target flex items-center gap-2 px-4 py-2 border border-gray-300 dark:border-gray-600 rounded-full text-sm font-medium hover:bg-gray-50 dark:hover:bg-gray-800 transition-colors"
                     >
                       <ExternalLink className="h-4 w-4" />
                       Live Demo
@@ -322,7 +322,7 @@ export function ExpandableProjectsSection() {
               layoutId={`card-${project.title}-${id}`}
               key={`card-${project.title}-${id}`}
               onClick={() => setActive(project)}
-              className="p-6 flex flex-col md:flex-row justify-between items-start md:items-center hover:bg-neutral-50 dark:hover:bg-neutral-800 rounded-xl cursor-pointer border border-gray-200 dark:border-gray-800 transition-colors"
+              className="cursor-target p-6 flex flex-col md:flex-row justify-between items-start md:items-center hover:bg-neutral-50 dark:hover:bg-neutral-800 rounded-xl cursor-pointer border border-gray-200 dark:border-gray-800 transition-colors"
             >
               <div className="flex gap-6 flex-col md:flex-row flex-1">
                 <motion.div layoutId={`image-${project.title}-${id}`}>
@@ -358,7 +358,7 @@ export function ExpandableProjectsSection() {
               </div>
               <motion.button
                 layoutId={`button-${project.title}-${id}`}
-                className="px-6 py-2 text-sm rounded-full font-medium bg-gray-100 hover:bg-black hover:text-white dark:bg-gray-800 dark:hover:bg-white dark:hover:text-black text-black dark:text-white mt-4 md:mt-0 transition-colors"
+                className="cursor-target px-6 py-2 text-sm rounded-full font-medium bg-gray-100 hover:bg-black hover:text-white dark:bg-gray-800 dark:hover:bg-white dark:hover:text-black text-black dark:text-white mt-4 md:mt-0 transition-colors"
               >
                 {project.ctaText}
               </motion.button>

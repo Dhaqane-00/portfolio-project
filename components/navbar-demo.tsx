@@ -97,7 +97,7 @@ function Navbar({
             variant="ghost"
             size="icon"
             onClick={toggleDarkMode}
-            className="rounded-full w-8 h-8"
+            className="cursor-target rounded-full w-8 h-8"
           >
             {darkMode ? <Sun className="h-4 w-4" /> : <Moon className="h-4 w-4" />}
           </Button>
