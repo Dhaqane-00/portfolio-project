@@ -1,15 +1,14 @@
 "use client"
 
 import { useState, useEffect } from "react"
-import { Moon, Sun, Github, Linkedin, Mail, ExternalLink, Download } from 'lucide-react'
+import { Github, Linkedin, Mail, Download } from 'lucide-react'
 import { Button } from "@/components/ui/button"
-import { Card, CardContent } from "@/components/ui/card"
 import { Badge } from "@/components/ui/badge"
-import { TextGenerateEffectDemo } from "@/components/text-generate-effect-demo"
+import { LampDemo } from "@/components/lamp-demo"
 import { NavbarDemo } from "@/components/navbar-demo"
 import { GlowingCardsDemo } from "@/components/glowing-cards-demo"
 import { PortfolioCardsSection } from "@/components/portfolio-cards-section"
-import { ExpandableProjectsSection } from "@/components/expandable-projects-section" // Import the new component
+import { ExpandableProjectsSection } from "@/components/expandable-projects-section"
 import { GetInTouchSection } from "@/components/get-in-touch-section"
 import TargetCursor from "@/components/ui/target-cursor"
 
@@ -47,32 +46,22 @@ export default function Portfolio() {
       <NavbarDemo darkMode={darkMode} toggleDarkMode={toggleDarkMode} />
 
       {/* Hero Section */}
-      <section className="pt-40 pb-20 px-4 sm:px-6 lg:px-8">
-        <div className="max-w-6xl mx-auto text-center">
-          <div className="mb-8">
-            <div className="w-32 h-32 mx-auto mb-6 rounded-full bg-gradient-to-br from-gray-200 to-gray-300 dark:from-gray-700 dark:to-gray-800 flex items-center justify-center text-4xl font-bold">
-              JD
-            </div>
-          </div>
-          <h1 className="text-5xl sm:text-6xl font-bold mb-6 tracking-tight">
-            John Doe
-          </h1>
-          <div className="mb-8">
-            <TextGenerateEffectDemo />
-          </div>
+      <section className="relative">
+        <LampDemo />
+        <div className="absolute bottom-20 left-1/2 transform -translate-x-1/2 z-50">
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
-            <Button className="cursor-target bg-black dark:bg-white text-white dark:text-black hover:bg-gray-800 dark:hover:bg-gray-200 rounded-full px-8 py-6 text-lg">
+            <Button className="cursor-target bg-cyan-500 hover:bg-cyan-600 text-white rounded-full px-8 py-6 text-lg shadow-lg">
               <Download className="mr-2 h-5 w-5" />
               Download Resume
             </Button>
             <div className="flex space-x-4">
-              <Button variant="ghost" size="icon" className="cursor-target rounded-full">
+              <Button variant="ghost" size="icon" className="cursor-target rounded-full bg-white/10 backdrop-blur-sm hover:bg-white/20 text-white">
                 <Github className="h-6 w-6" />
               </Button>
-              <Button variant="ghost" size="icon" className="cursor-target rounded-full">
+              <Button variant="ghost" size="icon" className="cursor-target rounded-full bg-white/10 backdrop-blur-sm hover:bg-white/20 text-white">
                 <Linkedin className="h-6 w-6" />
               </Button>
-              <Button variant="ghost" size="icon" className="cursor-target rounded-full">
+              <Button variant="ghost" size="icon" className="cursor-target rounded-full bg-white/10 backdrop-blur-sm hover:bg-white/20 text-white">
                 <Mail className="h-6 w-6" />
               </Button>
             </div>
