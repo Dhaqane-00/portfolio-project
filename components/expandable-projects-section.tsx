@@ -21,7 +21,7 @@ const portfolioProjects: ProjectCard[] = [
   {
     description: "Full-Stack E-Commerce Solution",
     title: "ShopFlow Platform",
-    src: "/placeholder.svg?height=400&width=600&text=E-Commerce+Platform",
+    src: "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2340&q=80",
     ctaText: "View Details",
     ctaLink: "https://github.com",
     githubLink: "https://github.com",
@@ -74,7 +74,7 @@ const portfolioProjects: ProjectCard[] = [
   {
     description: "Real-time Collaboration Tool",
     title: "TaskSync Pro",
-    src: "/placeholder.svg?height=400&width=600&text=Task+Management",
+    src: "https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2340&q=80",
     ctaText: "View Details",
     ctaLink: "https://github.com",
     githubLink: "https://github.com",
@@ -126,7 +126,7 @@ const portfolioProjects: ProjectCard[] = [
   {
     description: "AI-Powered Chat Interface",
     title: "ChatGPT Clone",
-    src: "/placeholder.svg?height=400&width=600&text=AI+Chat",
+    src: "https://images.unsplash.com/photo-1677442136019-21780ecad995?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2232&q=80",
     ctaText: "View Details",
     ctaLink: "https://github.com",
     githubLink: "https://github.com",

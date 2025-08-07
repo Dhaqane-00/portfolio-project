@@ -9,8 +9,8 @@ export function PortfolioCardsSection() {
       description: "From frontend magic to backend architecture, crafting complete digital solutions that scale.",
       author: "John Doe",
       readTime: "3 min read",
-      backgroundImage: "/placeholder.svg?height=400&width=300&text=Code",
-      avatar: "/placeholder.svg?height=40&width=40&text=JD"
+      backgroundImage: "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2069&q=80",
+      avatar: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=387&q=80"
     },
     {
       id: 2,
@@ -18,8 +18,8 @@ export function PortfolioCardsSection() {
       description: "Where aesthetics meet functionality. Creating interfaces that users love and remember.",
       author: "John Doe", 
       readTime: "2 min read",
-      backgroundImage: "/placeholder.svg?height=400&width=300&text=Design",
-      avatar: "/placeholder.svg?height=40&width=40&text=JD"
+      backgroundImage: "https://images.unsplash.com/photo-1558655146-9f40138edfeb?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2064&q=80",
+      avatar: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=387&q=80"
     },
     {
       id: 3,
@@ -27,8 +27,8 @@ export function PortfolioCardsSection() {
       description: "Always exploring new technologies and pushing boundaries to deliver cutting-edge solutions.",
       author: "John Doe",
       readTime: "4 min read", 
-      backgroundImage: "/placeholder.svg?height=400&width=300&text=Innovation",
-      avatar: "/placeholder.svg?height=40&width=40&text=JD"
+      backgroundImage: "https://images.unsplash.com/photo-1518709268805-4e9042af2176?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2125&q=80",
+      avatar: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=387&q=80"
     }
   ];
 
