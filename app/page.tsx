@@ -11,6 +11,7 @@ import { GlowingCardsDemo } from "@/components/glowing-cards-demo"
 import { PortfolioCardsSection } from "@/components/portfolio-cards-section"
 import { ExpandableProjectsSection } from "@/components/expandable-projects-section" // Import the new component
 import { GetInTouchSection } from "@/components/get-in-touch-section"
+import TargetCursor from "@/components/ui/target-cursor"
 
 export default function Portfolio() {
   const [darkMode, setDarkMode] = useState(false)
@@ -35,6 +36,13 @@ export default function Portfolio() {
 
   return (
     <div className="min-h-screen bg-white dark:bg-black text-black dark:text-white transition-colors duration-300">
+      {/* Custom Cursor */}
+      <TargetCursor
+        targetSelector=".cursor-target"
+        spinDuration={2}
+        hideDefaultCursor={true}
+      />
+
       {/* Navigation */}
       <NavbarDemo darkMode={darkMode} toggleDarkMode={toggleDarkMode} />
 
@@ -53,18 +61,18 @@ export default function Portfolio() {
             <TextGenerateEffectDemo />
           </div>
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
-            <Button className="bg-black dark:bg-white text-white dark:text-black hover:bg-gray-800 dark:hover:bg-gray-200 rounded-full px-8 py-6 text-lg">
+            <Button className="cursor-target bg-black dark:bg-white text-white dark:text-black hover:bg-gray-800 dark:hover:bg-gray-200 rounded-full px-8 py-6 text-lg">
               <Download className="mr-2 h-5 w-5" />
               Download Resume
             </Button>
             <div className="flex space-x-4">
-              <Button variant="ghost" size="icon" className="rounded-full">
+              <Button variant="ghost" size="icon" className="cursor-target rounded-full">
                 <Github className="h-6 w-6" />
               </Button>
-              <Button variant="ghost" size="icon" className="rounded-full">
+              <Button variant="ghost" size="icon" className="cursor-target rounded-full">
                 <Linkedin className="h-6 w-6" />
               </Button>
-              <Button variant="ghost" size="icon" className="rounded-full">
+              <Button variant="ghost" size="icon" className="cursor-target rounded-full">
                 <Mail className="h-6 w-6" />
               </Button>
             </div>
@@ -107,7 +115,7 @@ export default function Portfolio() {
                   <Badge
                     key={index}
                     variant="secondary"
-                    className="justify-center py-2 bg-white dark:bg-black border border-gray-200 dark:border-gray-800"
+                    className="cursor-target justify-center py-2 bg-white dark:bg-black border border-gray-200 dark:border-gray-800"
                   >
                     {skill}
                   </Badge>

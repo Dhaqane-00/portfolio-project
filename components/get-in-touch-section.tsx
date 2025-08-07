@@ -143,7 +143,7 @@ export function GetInTouchSection() {
                                                     type="text"
                                                     value={formData.name}
                                                     onChange={(e) => updateFormData("name", e.target.value)}
-                                                    className="w-full px-3 py-2 border border-gray-300 dark:border-gray-600 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent bg-white dark:bg-gray-700 text-black dark:text-white"
+                                                    className="cursor-target w-full px-3 py-2 border border-gray-300 dark:border-gray-600 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent bg-white dark:bg-gray-700 text-black dark:text-white"
                                                     placeholder="John Doe"
                                                 />
                                             </div>
@@ -156,7 +156,7 @@ export function GetInTouchSection() {
                                                     type="email"
                                                     value={formData.email}
                                                     onChange={(e) => updateFormData("email", e.target.value)}
-                                                    className="w-full px-3 py-2 border border-gray-300 dark:border-gray-600 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent bg-white dark:bg-gray-700 text-black dark:text-white"
+                                                    className="cursor-target w-full px-3 py-2 border border-gray-300 dark:border-gray-600 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent bg-white dark:bg-gray-700 text-black dark:text-white"
                                                     placeholder="john@example.com"
                                                 />
                                             </div>
@@ -169,7 +169,7 @@ export function GetInTouchSection() {
                                                     type="text"
                                                     value={formData.company}
                                                     onChange={(e) => updateFormData("company", e.target.value)}
-                                                    className="w-full px-3 py-2 border border-gray-300 dark:border-gray-600 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent bg-white dark:bg-gray-700 text-black dark:text-white"
+                                                    className="cursor-target w-full px-3 py-2 border border-gray-300 dark:border-gray-600 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent bg-white dark:bg-gray-700 text-black dark:text-white"
                                                     placeholder="Your Company"
                                                 />
                                             </div>
@@ -198,7 +198,7 @@ export function GetInTouchSection() {
                                                 <select
                                                     value={formData.projectType}
                                                     onChange={(e) => updateFormData("projectType", e.target.value)}
-                                                    className="w-full px-3 py-2 border border-gray-300 dark:border-gray-600 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent bg-white dark:bg-gray-700 text-black dark:text-white"
+                                                    className="cursor-target w-full px-3 py-2 border border-gray-300 dark:border-gray-600 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent bg-white dark:bg-gray-700 text-black dark:text-white"
                                                 >
                                                     <option value="">Select project type</option>
                                                     <option value="website">Website Development</option>
@@ -218,7 +218,7 @@ export function GetInTouchSection() {
                                                 <select
                                                     value={formData.budget}
                                                     onChange={(e) => updateFormData("budget", e.target.value)}
-                                                    className="w-full px-3 py-2 border border-gray-300 dark:border-gray-600 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent bg-white dark:bg-gray-700 text-black dark:text-white"
+                                                    className="cursor-target w-full px-3 py-2 border border-gray-300 dark:border-gray-600 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent bg-white dark:bg-gray-700 text-black dark:text-white"
                                                 >
                                                     <option value="">Select budget range</option>
                                                     <option value="5k-10k">$5,000 - $10,000</option>
@@ -236,7 +236,7 @@ export function GetInTouchSection() {
                                                 <select
                                                     value={formData.timeline}
                                                     onChange={(e) => updateFormData("timeline", e.target.value)}
-                                                    className="w-full px-3 py-2 border border-gray-300 dark:border-gray-600 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent bg-white dark:bg-gray-700 text-black dark:text-white"
+                                                    className="cursor-target w-full px-3 py-2 border border-gray-300 dark:border-gray-600 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent bg-white dark:bg-gray-700 text-black dark:text-white"
                                                 >
                                                     <option value="">Select timeline</option>
                                                     <option value="asap">ASAP</option>
@@ -271,7 +271,7 @@ export function GetInTouchSection() {
                                                 value={formData.message}
                                                 onChange={(e) => updateFormData("message", e.target.value)}
                                                 rows={4}
-                                                className="w-full px-3 py-2 border border-gray-300 dark:border-gray-600 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent bg-white dark:bg-gray-700 text-black dark:text-white resize-none"
+                                                className="cursor-target w-full px-3 py-2 border border-gray-300 dark:border-gray-600 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent bg-white dark:bg-gray-700 text-black dark:text-white resize-none"
                                                 placeholder="Tell me about your project goals, target audience, key features you need, or any specific requirements..."
                                             />
                                         </div>
