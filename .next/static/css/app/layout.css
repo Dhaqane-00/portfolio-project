@@ -838,6 +838,9 @@ video {
 .mt-auto {
   margin-top: auto;
 }
+.mt-6 {
+  margin-top: 1.5rem;
+}
 .block {
   display: block;
 }
@@ -1001,6 +1004,9 @@ video {
 }
 .min-h-svh {
   min-height: 100svh;
+}
+.min-h-\[250px\] {
+  min-height: 250px;
 }
 .w-0 {
   width: 0px;
@@ -1848,6 +1854,9 @@ video {
 }
 .pt-40 {
   padding-top: 10rem;
+}
+.pb-6 {
+  padding-bottom: 1.5rem;
 }
 .text-left {
   text-align: left;
